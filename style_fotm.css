@@ -1,0 +1,85 @@
+html {
+  font-size: 10px;
+}
+body {
+  color: #fff;
+  font-family: system-ui;
+  line-height: 1.4;
+}
+section {
+  background-image: url("https://images.unsplash.com/photo-1714756034183-42581eacfb05?auto=format&auto=compress&dpr=2&h=594&q=45&w=1999&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1vZi10aGUtZGF5fHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center center;
+  height: 200px;
+  border-image: fill 0 linear-gradient(#0003, #000);
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+  color: white;
+}
+.container {
+  display: grid;
+  gap: 20px;
+}
+h2 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+form {
+  width: 70%;
+  color: white;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  background-color: grey;
+  padding: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-row {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  /*   flex-direction: column; */
+}
+
+label {
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  padding: 0.5rem;
+  font-size: 1.6rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button {
+  padding: 0.6rem 1.5rem;
+  font-size: 1.6rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
